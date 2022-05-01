@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+
+#user-login-form{
+    padding: 30px;
+    
+    }
+    button {
+        padding: 6px 20px;
+    }
+        .from-field{
+       margin-bottom: 15px;
+    }
+    .from-field input{
+        height: 32px;
+        width: 200px;
+        outline: none;
+        border: 1px solid #e3e3e3;
+    }
+    
+    .my-modal {
+        display: none;
+        width: 500px;
+
+        background-color:rgb(209, 91, 18);
+        padding-top: 50px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .my-modal.visible {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    };
+    label{
+        background-color: aqua;
+    }
+
